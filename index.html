@@ -1,6 +1,242 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
-	<body>
-		<h1>Goodnight, World!</h1>
+	<head>
+		<title>Портфолио</title>
+		<link rel="icon" type="image/png" sizes="16x16" href="images/favicon.ico">
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+	<!-- <body> -->
+		<div id="loader" class="center"></div>
+
+		<!-- Header -->
+			<div id="header">
+
+				<div class="top">
+
+					<!-- Logo -->
+						<div id="logo" lang="ru">
+							<h1 id="title">Алексей Карстен</h1>
+							<p>Инженер-программист</p>
+						</div>
+						<div id="logo" lang="en">
+							<h1 id="title">Aleksei Karsten</h1>
+							<p>software engineer</p>
+						</div>
+
+					<!-- Nav -->
+						<nav id="nav">
+							<ul lang="ru">
+								<li><a href="#welcome" id="top-link"><span class="icon solid fa-home">Приветствие</span></a></li>
+								<li><a href="#portfolio" id="portfolio-link"><span class="icon solid fa-th">Портфолио</span></a></li>
+								<li><a href="#about" id="about-link"><span class="icon solid fa-user">Обо мне</span></a></li>
+							</ul>
+							<ul lang="en">
+								<li><a href="#welcome" id="top-link"><span class="icon solid fa-home">Welcome</span></a></li>
+								<li><a href="#portfolio" id="portfolio-link"><span class="icon solid fa-th">Portfolio</span></a></li>
+								<li><a href="#about" id="about-link"><span class="icon solid fa-user">About me</span></a></li>
+							</ul>
+						</nav>
+
+				</div>
+
+				<div class="bottom">
+
+					<!-- Social Icons -->
+						<ul class="icons">
+							<li><a href="https://github.com/mementomorri" class="icon brands fa-github"><span class="label">Github</span></a></li>
+							<li><a href="https://t.me/AlexeyKarsten" class="icon brands fa-telegram"><span class="label">Dribbble</span></a></li>
+							<li><a href="mailto:mementomorimore@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+						</ul>
+
+				</div>
+
+			</div>
+
+		<!-- Main -->
+			<div id="main">
+
+				<!-- Intro -->
+					<section id="welcome" class="one dark cover">
+							<div id="navbar-right" >
+								<ul class="lang-switch">
+									<li><span> Русский </span></li>
+									<li>
+										<label class="switch">
+										<input id="lang-switch" type="checkbox">
+										<span class="slider round"></span>
+										</label>
+									</li>
+									<li><span> English </span></li>
+								</ul>
+							</div>
+						<div class="container" lang="ru">
+							<header >
+								<h2 class="alt">Привет! Я <strong>Алексей</strong>, программист-энтузиаст,<br />
+								этот сайт является моим маленьким портфолио.</h2>
+								<p>Основное предназначение этого портфолио:<br />
+								продемонстрировать мои навыки и знания в виде наглядных примеров.
+								</p>
+							</header>
+						</div>
+						<div class="container" lang="en">
+							<header >
+								<h2 class="alt">Hello! I'm <strong>Aleksei</strong>, a software engineer and programming enthusiast,<br />
+								this web site is my little portfolio.</h2>
+								<p>The main reason for this to exist is<br />
+								to demonstrate my professional knowledge and skills with illustrative examples.
+								</p>
+							</header>
+						</div>
+					</section>
+
+				<!-- Portfolio -->
+					<section id="portfolio" class="two">
+						<div class="container">
+
+							<header>
+								<h2 lang="ru">Портфолио</h2>
+								<h2 lang="en">Portfolio</h2>
+							</header>
+
+							<p lang="ru">Исходный код и подробное описание проектов, представленных далее, доступно по кликабельной ссылке на Github.</p>
+							<p lang="en">Source code and more detailed description of projects shown below is acessible via Github links.</p>
+
+
+							<div class="row">
+								<div class="col-4 col-12-mobile">
+									<article class="item">
+										<a href="https://github.com/mementomorri/Familiarity_with_Ignition" target="_blank" rel="noreferrer noopener" class="image fit"><img src="images/pic02.jpg" alt="" /></a>
+										<header lang="ru">
+											<h3>Автоматизация работы ПЛК выполненная с использование SCADA системы Ignition</h3>
+											<a href="https://github.com/mementomorri/Familiarity_with_Ignition" target="_blank" rel="noreferrer noopener">Исходный код</a>
+										</header>
+										<header lang="en">
+											<h3>PLC automation implemented with SCADA Ignition</h3>
+											<a href="https://github.com/mementomorri/Familiarity_with_Ignition" target="_blank" rel="noreferrer noopener">Source code</a>
+										</header>
+									</article>
+									<article class="item">
+										<a href="https://omelet-app.herokuapp.com/" target="_blank" rel="noreferrer noopener" class="image fit"><img src="images/pic03.jpg" alt="" /></a>
+										<header lang="ru">
+											<h3>"Omelet" twitter-like соц. сеть выполненная с использованием Spring boot starter, Spring Data и JWT</h3>
+											<a href="https://github.com/mementomorri/Omelet" target="_blank" rel="noreferrer noopener">Исходный код</a>
+										</header>
+										<header lang="en">
+											<h3>"Omelet" twitter-like social network implemented with Spring Boot Starter, Spring Data and JWT</h3>
+											<a href="https://github.com/mementomorri/Omelet" target="_blank" rel="noreferrer noopener">Source code</a>
+										</header>
+									</article>
+									<article class="item">
+										<a href="https://github.com/mementomorri/python_bucket_list_app" target="_blank" rel="noreferrer noopener" class="image fit"><img src="images/pic01.jpg" alt="" /></a>
+										<header lang="ru">
+											<h3>"Bucket list" класcическое приложение исполненное с помощью Python и Flask</h3>
+											<a href="https://github.com/mementomorri/python_bucket_list_app" target="_blank" rel="noreferrer noopener">Исходный код</a>
+										</header>
+										<header lang="en">
+											<h3>"Bucket list" a classic example implemented with Python and Flask</h3>
+											<a href="https://github.com/mementomorri/python_bucket_list_app" target="_blank" rel="noreferrer noopener">Source code</a>
+										</header>
+									</article>
+								</div>
+
+								<div class="col-4 col-12-mobile">
+									<article class="item">
+										<a href="https://mementomorri.github.io/comp_science_graduatiom_project/" target="_blank" rel="noreferrer noopener" class="image fit"><img src="images/pic07.jpg" alt="" /></a>
+										<header lang="ru">
+											<h3>"Meet friends" сервис организации встреч и совещаний, выполнено только с набором веб технологий</h3>
+											<a href="https://github.com/mementomorri/comp_science_graduatiom_project" target="_blank" rel="noreferrer noopener">Исходный код</a>
+										</header>
+										<header lang="en">
+											<h3>"Meet friends" web service that aims to help organize meet ups, pure web application</h3>
+											<a href="https://github.com/mementomorri/comp_science_graduatiom_project" target="_blank" rel="noreferrer noopener">Source code</a>
+										</header>
+									</article>
+								 <!--  <article class="item">
+										<a href="https://github.com/mementomorri/COD_web-interface" target="_blank" rel="noreferrer noopener" class="image fit"><img src="images/pic05.jpg" alt="" /></a>
+										<header lang="ru">
+											<h3>Веб интерфейс для центра обработки данных выполненный с использованием инструментов веб разработки C# и ASP.NET</h3>
+											<a href="https://github.com/mementomorri/COD_web-interface" target="_blank" rel="noreferrer noopener">Исходный код</a>
+										</header>
+										<header lang="en">
+											<h3>A control web interface for Data Processing Center implemented with web technologies of C# and ASP.NET</h3>
+											<a href="https://github.com/mementomorri/COD_web-interface" target="_blank" rel="noreferrer noopener">Source code</a>
+										</header>
+									</article> -->
+								</div>
+
+							    <div class="col-4 col-12-mobile">
+									<article class="item">
+										<a href="https://github.com/mementomorri/python_data_processing_pipeline" target="_blank" rel="noreferrer noopener" class="image fit"><img src="images/pic06.jpg" alt="" /></a>
+										<header lang="ru">
+											<h3>Конвеер обработки данных на Python, с использованием библиотек Pandas и NumPy</h3>
+											<a href="https://github.com/mementomorri/python_data_processing_pipeline" target="_blank" rel="noreferrer noopener">Исходный код</a>
+										</header>
+										<header lang="en">
+											<h3>Data processing pipeline implemented with Python, using Pandas and NumPy</h3>
+											<a href="https://github.com/mementomorri/python_data_processing_pipeline" target="_blank" rel="noreferrer noopener">Source code</a>
+										</header>
+									</article>
+									<article class="item">
+										<a href="https://kotin-springboot-message-board.herokuapp.com" target="_blank" rel="noreferrer noopener" class="image fit"><img src="images/pic04.jpg" alt="" /></a>
+										<header lang="ru">
+											<h3>Интерактивный месседж-борд выполненный с использованием Spring Boot, Spring Data и KVision</h3>
+											<a href="https://github.com/mementomorri/kotlin-spring-boot-message-board" target="_blank" rel="noreferrer noopener">Исходный код</a>
+										</header>
+										<header lang="en">
+											<h3>Interactive message board implemented with Spring Boot, Spring Data and KVision</h3>
+											<a href="https://github.com/mementomorri/kotlin-spring-boot-message-board" target="_blank" rel="noreferrer noopener">Source code</a>
+										</header>
+									</article>
+								</div>
+							</div>
+						</div>
+					</section>
+
+				<!-- About Me -->
+					<section id="about" class="three">
+						<div class="container">
+
+							<header>
+								<h2 lang="ru">Обо мне</h2>
+								<h2 lang="en">About me</h2>
+							</header>
+
+							<a href="#" class="image featured"><img src="images/about.jpg" alt="" /></a>
+
+							<p lang="ru">Обладаю квалификацией бакалавка по направлению "Информационные
+								системы и технологии". Имею больше года опыта коммерческой разработки программного обеспечения. Интересуюсь технологиями и техникой,
+							отношусь к своему делу с большим энтузиазмом.</p>
+							<p lang="en">I have a bachelor degree in Computer Science, more than a year of experience in commercial software development and very excited about tech and technologies,
+							inspired with big enthusiasm.</p>
+
+						</div>
+					</section>
+
+		<!-- Footer -->
+			<div id="footer">
+
+				<!-- Copyright -->
+				<p>Contact me:</p>
+				<ul class="icons">
+					<li><a href="https://github.com/mementomorri" class="icon brands fa-github"><span class="label">Github</span></a></li>
+					<li><a href="https://t.me/AlexeyKarsten" class="icon brands fa-telegram"><span class="label">Telegram</span></a></li>
+					<li><a href="mailto:mementomorimore@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+				</ul>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/lang_switch.js"></script>
+			<script src="assets/js/main.js"></script>
+
 	</body>
 </html>
